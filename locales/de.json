@@ -1,0 +1,173 @@
+{
+  "language": "de",
+  "direction": "ltr",
+  "ui": {
+    "title": "Magischer Athlet",
+    "heading": "Finde deine Karte",
+    "language": "Sprache",
+    "searchLabel": "Kartennamen und Fähigkeiten durchsuchen",
+    "searchPlaceholder": "Kartenname oder Fähigkeit eingeben…",
+    "searchHint": "Kartenname oder Fähigkeit",
+    "clearSearch": "Suche löschen",
+    "cardsLabel": "Rennfahrerkarten",
+    "count": "{count} Karten",
+    "filteredCount": "{count} von {total} Karten",
+    "viewCard": "Karte von {name} ansehen",
+    "cardImage": "Karte von {name}",
+    "notes": "Regelhinweis",
+    "emptyTitle": "Diese Karte versteckt sich!",
+    "emptyDescription": "Versuche einen anderen Namen oder Suchbegriff.",
+    "resetSearch": "Alle Karten anzeigen",
+    "close": "Karte schließen",
+    "loadError": "Die Karten konnten nicht geladen werden. Bitte versuche es erneut.",
+    "retry": "Erneut versuchen",
+    "footerContribute": "Möchtest du eine Sprache hinzufügen, eine Änderung vorschlagen oder ein Problem melden?",
+    "footerGitHub": "Besuche das Projekt auf GitHub"
+  },
+  "cards": {
+    "alchemist": {
+      "description": "Wenn ich für meinen Hauptzug eine 1 oder 2 würfle, kann ich stattdessen 4 Felder ziehen.",
+      "notes": ""
+    },
+    "baba-yaga": {
+      "description": "Jeder Rennteilnehmer, der auf meinem Feld anhält oder auf dessen Feld ich anhalte, stolpert.",
+      "notes": "Teile ich ein Feld mit Duelist, können wir ein Duell austragen, aber Duelist stolpert trotzdem. Hypnotist kann mich auf sein Feld teleportieren, stolpert dabei aber ebenfalls."
+    },
+    "banana": {
+      "description": "Jeder Rennteilnehmer, der an mir vorbeizieht, stolpert.",
+      "notes": ""
+    },
+    "blimp": {
+      "description": "Beginne ich meinen Zug vor der zweiten Kurve der Strecke, erhält mein Hauptzug +3. Auf oder hinter dieser Kurve erhält er −1.",
+      "notes": ""
+    },
+    "centaur": {
+      "description": "Wenn ich an einem Rennteilnehmer vorbeiziehe, zieht er 2 Felder rückwärts.",
+      "notes": "Ein Rennteilnehmer kann nicht hinter das Startfeld zurückgeschickt werden."
+    },
+    "cheerleader": {
+      "description": "Zu Beginn meines Zuges kann ich alle Rennteilnehmer auf dem letzten Platz 2 Felder ziehen lassen. Tue ich das, ziehe ich selbst 1 Feld.",
+      "notes": "Sind mehrere Rennteilnehmer gemeinsam Letzte, ziehen sie alle, aber ich ziehe nur 1 Feld. Feuere ich mich selbst an, sind das zwei getrennte Bewegungen: zuerst 2 Felder, dann 1 Feld."
+    },
+    "coach": {
+      "description": "Der Hauptzug aller Rennteilnehmer auf meinem Feld, einschließlich meines eigenen, erhält +1.",
+      "notes": "Meine Fähigkeit gilt auch für mich selbst."
+    },
+    "copy-cat": {
+      "description": "Ich habe die Fähigkeit des Rennteilnehmers, der gerade führt. Bei Gleichstand wähle ich einen aus.",
+      "notes": "Ich habe stets die Fähigkeit des aktuellen Spitzenreiters, auch außerhalb meines Zuges. Bei einem Widerspruch hat die Fähigkeit des ursprünglichen Rennteilnehmers Vorrang. Fähigkeiten „vor meinem Rennen“ kopiere ich nie. Bei geteilter Führung darf ich meine gewählte Fähigkeit nicht mitten in einer Aktion wechseln."
+    },
+    "dicemonger": {
+      "description": "Jeder darf seinen Hauptzug einmal pro Zug neu würfeln. Wenn ein anderer Rennteilnehmer das tut, ziehe ich 1 Feld.",
+      "notes": "Würfelt jemand anderes neu, ziehe ich vor dessen Bewegung."
+    },
+    "duelist": {
+      "description": "Sobald ein Rennteilnehmer mein Feld teilt, kann ich „DUELL!“ rufen. Wir würfeln beide; wer höher würfelt, zieht 2 Felder. Bei Gleichstand gewinne ich.",
+      "notes": "Ich kann mehrmals pro Zug ein Duell austragen, auch außerhalb meines Zuges, solange wir ein Feld teilen. Ich darf keine laufende Aktion unterbrechen, etwa zwischen einem Würfelwurf und der Bewegung."
+    },
+    "egg": {
+      "description": "Vor meinem Rennen ziehe ich 3 neue Rennteilnehmer aus dem Stapel und wähle einen aus. Ich habe dessen Fähigkeiten.",
+      "notes": "Ich verwende weiterhin meinen eigenen Spielstein. Ich erhalte auch die Fähigkeiten „vor meinem Rennen“ des gewählten Rennteilnehmers."
+    },
+    "flip-flop": {
+      "description": "Ich kann für meinen Hauptzug auf das Würfeln verzichten und stattdessen mit einem anderen Rennteilnehmer die Felder tauschen.",
+      "notes": "Der Tausch ist eine Teleportation, keine Bewegung, und ich würfle nicht. Wir tauschen gleichzeitig, sodass ich mit dem anderen Rennteilnehmer nie ein Feld teile."
+    },
+    "genius": {
+      "description": "Ich kann vorhersagen, welche Zahl ich für meinen Hauptzug würfeln werde. Liege ich richtig, bekomme ich einen zusätzlichen Zug.",
+      "notes": "Sage ich gegen Skipper eine 1 richtig voraus, bekommt Skipper den nächsten Zug, weil seine Fähigkeit nach meiner ausgelöst wird. Kontrolliere ich mehrere Rennteilnehmer, gilt der zusätzliche Zug nur für Genius."
+    },
+    "gunk": {
+      "description": "Die Hauptzüge aller anderen Rennteilnehmer erhalten −1.",
+      "notes": "Das verringert die Zugweite, nicht die gewürfelte Zahl. Eine 6 wird also nicht zur 5; die Fähigkeit von Lackey wird weiterhin ausgelöst."
+    },
+    "hare": {
+      "description": "Mein Hauptzug erhält +2. Beginne ich meinen Zug allein in Führung, lasse ich meinen Hauptzug aus.",
+      "notes": ""
+    },
+    "heckler": {
+      "description": "Beendet ein Rennteilnehmer seinen Zug auf seinem Ausgangsfeld oder höchstens 1 Feld davon entfernt, ziehe ich 2 Felder.",
+      "notes": "Meine Fähigkeit gilt auch für Rennteilnehmer, die ihren Zug damit verbringen, nach dem Stolpern wieder aufzustehen."
+    },
+    "huge-baby": {
+      "description": "Außer auf dem Startfeld darf niemand auf meinem Feld stehen. Sobald das passieren würde, wird der betreffende Rennteilnehmer stattdessen auf das Feld hinter mir gestellt.",
+      "notes": "Das Platzieren hinter mir zählt nicht als Bewegung; der Rennteilnehmer gilt als dort angehalten. Halte ich auf dem Feld von Banana an und stelle Banana hinter mich, zählt das als Vorbeiziehen an Banana, und ich stolpere."
+    },
+    "hypnotist": {
+      "description": "Zu Beginn meines Zuges kann ich einen Rennteilnehmer auf mein Feld teleportieren.",
+      "notes": ""
+    },
+    "inchworm": {
+      "description": "Würfelt ein anderer Rennteilnehmer für seinen Hauptzug eine 1, lässt er diesen Zug aus und ich ziehe 1 Feld.",
+      "notes": "Würfelt ein anderer Rennteilnehmer eine 1, während Skipper mitrennt, ziehe ich zuerst 1 Feld; danach ist Skipper am Zug."
+    },
+    "lackey": {
+      "description": "Würfelt ein anderer Rennteilnehmer für seinen Hauptzug eine 6, ziehe ich 2 Felder.",
+      "notes": "Falls die Reihenfolge wichtig ist, ziehe ich vor dem anderen Rennteilnehmer."
+    },
+    "leaptoad": {
+      "description": "Ich überspringe Felder, auf denen andere Rennteilnehmer stehen; sie zählen nicht zu meiner Zugweite.",
+      "notes": "Das gilt auch, wenn ich rückwärts ziehe."
+    },
+    "legs": {
+      "description": "Ich kann für meinen Hauptzug auf das Würfeln verzichten und stattdessen 5 Felder ziehen.",
+      "notes": "Das zählt als mein Hauptzug. Gunk kann ihn also verkürzen und Coach verlängern."
+    },
+    "loveable-loser": {
+      "description": "Zu Beginn meines Zuges bekomme ich 1 Punktechip, wenn ich allein auf dem letzten Platz bin.",
+      "notes": ""
+    },
+    "magician": {
+      "description": "Ich kann meinen Hauptzug bis zu zweimal neu würfeln.",
+      "notes": "Ich muss das Ergebnis meines letzten Wurfs verwenden."
+    },
+    "mastermind": {
+      "description": "Zu Beginn meines ersten Zuges sage ich voraus, welcher Rennteilnehmer gewinnt. Liege ich richtig, endet das Rennen sofort und ich werde Zweiter.",
+      "notes": "Sage ich mich selbst voraus, kann ich sowohl den ersten als auch den zweiten Platz bekommen."
+    },
+    "mouth": {
+      "description": "Halte ich auf einem Feld mit genau einem anderen Rennteilnehmer an, scheidet dieser aus dem Rennen aus.",
+      "notes": ""
+    },
+    "party-animal": {
+      "description": "Zu Beginn meines Zuges ziehen alle Rennteilnehmer 1 Feld auf mich zu. Jeder andere Rennteilnehmer auf meinem Feld gibt meinem Hauptzug +1.",
+      "notes": "Kommt Huge Baby durch diese Fähigkeit auf mein Feld, werden alle dort 1 Feld hinter Huge Baby gestellt."
+    },
+    "rocket-scientist": {
+      "description": "Ich kann das Würfelergebnis meines Hauptzuges verdoppeln. Wenn ich das tue, stolpere ich.",
+      "notes": "Ich würfle zuerst und entscheide dann, ob ich meine Fähigkeit nutze."
+    },
+    "romantic": {
+      "description": "Sobald jemand auf einem Feld mit genau einem anderen Rennteilnehmer anhält, ziehe ich 2 Felder.",
+      "notes": "Meine Fähigkeit wird nicht ausgelöst, wenn zwei Rennteilnehmer gleichzeitig zusammen ziehen, etwa durch Party Animal oder Suckerfish."
+    },
+    "scoocher": {
+      "description": "Immer wenn die Fähigkeit eines anderen Rennteilnehmers ausgeführt wird, ziehe ich 1 Feld.",
+      "notes": "Bei Gunk ziehe ich 1 Feld für jedes −1, das auf einen Hauptzug angewendet wird. Bei Dicemonger ziehe ich für jeden erneuten Wurf. Bei Leaptoad ziehe ich für jedes übersprungene Feld: zwei aufeinanderfolgende besetzte Felder bedeuten zwei getrennte Bewegungen um je 1 Feld. Ich ziehe auch bei jedem erneuten Wurf von Magician, selbst wenn dessen Ergebnis nicht verwendet wird."
+    },
+    "sisyphus": {
+      "description": "Vor meinem Rennen nehme ich 4 Punktechips. Würfle ich für meinen Hauptzug eine 6, teleportiere ich mich statt einer Bewegung zum Start und verliere 1 Punktechip.",
+      "notes": "Auch nach mehr als vier gewürfelten Sechsen verliere ich weiter Punkte, solange ich welche habe. Nach der Teleportation zum Start führe ich meinen Hauptzug nicht aus."
+    },
+    "skipper": {
+      "description": "Sobald jemand für seinen Hauptzug eine 1 würfelt, bin ich als Nächster am Zug.",
+      "notes": "Nach meinem Zug geht die Zugreihenfolge links von mir weiter, außer ich würfle eine 1 und bin noch einmal dran!"
+    },
+    "stickler": {
+      "description": "Andere Rennteilnehmer können die Ziellinie nur überqueren, wenn sie genau die nötige Anzahl Felder ziehen. Würden sie darüber hinausziehen, bewegen sie sich überhaupt nicht.",
+      "notes": "Das gilt für jede Bewegung, einschließlich Hauptzügen und Fähigkeiten. Beispielsweise kann Duelist von dem letzten Feld vor dem Ziel aus durch einen gewonnenen Zweikampf die Ziellinie nicht überqueren."
+    },
+    "suckerfish": {
+      "description": "Beginnt ein Rennteilnehmer eine Bewegung auf meinem Feld, kann ich mit ihm mitziehen.",
+      "notes": "Sobald ich mitziehe, muss ich bis zum Ende seiner gesamten Bewegung dabei bleiben. Ich kann mit dieser Fähigkeit die Ziellinie überqueren. Wir kommen gleichzeitig an, aber für die Zielplatzierung und das Auslösen von Fähigkeiten wird zuerst der Rennteilnehmer abgehandelt, dem ich folge."
+    },
+    "third-wheel": {
+      "description": "Zu Beginn meines Zuges kann ich mich auf ein beliebiges Feld mit genau 2 Rennteilnehmern teleportieren.",
+      "notes": "Nach der Teleportation führe ich meinen Hauptzug trotzdem aus."
+    },
+    "twin": {
+      "description": "Vor meinem Rennen kann ich einen Rennteilnehmer auswählen, der ein früheres Rennen gewonnen hat, und mit dessen Fähigkeiten antreten.",
+      "notes": "Ich verwende weiterhin meinen eigenen Spielstein. Ich erhalte auch die Fähigkeiten „vor meinem Rennen“ des ausgewählten Rennteilnehmers."
+    }
+  }
+}

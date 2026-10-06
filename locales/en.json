@@ -1,0 +1,173 @@
+{
+  "language": "en",
+  "direction": "ltr",
+  "ui": {
+    "title": "Magical Athlete",
+    "heading": "Find your card",
+    "language": "Language",
+    "searchLabel": "Search card names and abilities",
+    "searchPlaceholder": "Type a card name or ability…",
+    "searchHint": "Card name or ability",
+    "clearSearch": "Clear search",
+    "cardsLabel": "Racer cards",
+    "count": "{count} cards",
+    "filteredCount": "{count} of {total} cards",
+    "viewCard": "View {name} card",
+    "cardImage": "{name} card",
+    "notes": "Rules note",
+    "emptyTitle": "This card is hiding!",
+    "emptyDescription": "Try another name or keyword.",
+    "resetSearch": "Show all cards",
+    "close": "Close card",
+    "loadError": "Could not load the cards. Please try again.",
+    "retry": "Try again",
+    "footerContribute": "Want to add a language, suggest a change, or report an issue?",
+    "footerGitHub": "Visit the project on GitHub"
+  },
+  "cards": {
+    "alchemist": {
+      "description": "When I roll a 1 or 2 for my main move, I can move 4 instead.",
+      "notes": ""
+    },
+    "baba-yaga": {
+      "description": "Trip any racer that stops on my space, or when I stop on theirs.",
+      "notes": "If I share a space with Duelist, we can duel, but Duelist still trips. Hypnotist can warp me to their space, but they still trip."
+    },
+    "banana": {
+      "description": "I trip any racer that passes me.",
+      "notes": ""
+    },
+    "blimp": {
+      "description": "When I start my turn before the second corner of the track, I get +3 to my main move. On or after that corner, I get -1.",
+      "notes": ""
+    },
+    "centaur": {
+      "description": "When I pass a racer, they move backwards 2.",
+      "notes": "A racer cannot be pushed back farther than the Start space."
+    },
+    "cheerleader": {
+      "description": "At the start of my turn, I can make the racers in last place move 2. If I do, I move 1.",
+      "notes": "If several racers are tied for last, they all move, but I only move 1. If I cheer for myself, these are separate moves: move 2, then move 1."
+    },
+    "coach": {
+      "description": "Everyone on my space gets +1 to their main move, including me.",
+      "notes": "I benefit from my own power too."
+    },
+    "copy-cat": {
+      "description": "I have the power of the racer currently in the lead. If there’s a tie, I pick.",
+      "notes": "I always have the current leader’s power, even outside my turn. In a conflict, the original racer’s power takes priority. I never copy “before my race” powers. If the lead is tied, I cannot change my chosen power in the middle of an action."
+    },
+    "dicemonger": {
+      "description": "Anyone can reroll their main move once per turn. When another racer does it, I move 1.",
+      "notes": "When someone else rerolls, I move before they move."
+    },
+    "duelist": {
+      "description": "Whenever a racer shares my space, I can shout DUEL! We roll our dice and whoever rolls highest moves 2. I win ties.",
+      "notes": "I can duel multiple times per turn, even outside my turn, whenever I share a space. I cannot interrupt an action in progress, such as between a roll and a move."
+    },
+    "egg": {
+      "description": "Before my race, draw 3 new racers from the deck and pick one. I have its powers.",
+      "notes": "Keep using my racer token. I also get the chosen racer’s “before my race” powers."
+    },
+    "flip-flop": {
+      "description": "I can skip rolling for my main move and swap spaces with another racer instead.",
+      "notes": "Swapping is a warp, not a move, and I do not roll. We swap simultaneously, so I never share a space with the racer I swap with."
+    },
+    "genius": {
+      "description": "I can predict what number I’ll roll for my main move. If I’m right, I take an extra turn.",
+      "notes": "If I correctly predict a 1 while racing against Skipper, Skipper takes the next turn because their power triggers after mine. If I control multiple racers, the extra turn is only for Genius."
+    },
+    "gunk": {
+      "description": "Other racers get -1 to their main move.",
+      "notes": "This reduces the move amount, not the die result. A 6 does not become a 5, so Lackey’s power still triggers."
+    },
+    "hare": {
+      "description": "I get +2 to my main move. When I start my turn alone in the lead, I skip my main move.",
+      "notes": ""
+    },
+    "heckler": {
+      "description": "When a racer ends their turn within 1 space of where they started, I move 2.",
+      "notes": "My power also works for racers spending their turn recovering from tripping."
+    },
+    "huge-baby": {
+      "description": "No one can ever be on my space, besides the Start. Whenever that would happen, put the racer on the space behind me instead.",
+      "notes": "Placing a racer behind me is not a move; they are treated as having stopped there. If I stop on Banana’s space and put them behind me, that counts as passing Banana, so I trip."
+    },
+    "hypnotist": {
+      "description": "At the start of my turn, I can warp a racer to my space.",
+      "notes": ""
+    },
+    "inchworm": {
+      "description": "When another racer rolls a 1 for their main move, they skip that move and I move 1.",
+      "notes": "If another racer rolls a 1 with Skipper on the track, I move 1 first, then Skipper takes their turn."
+    },
+    "lackey": {
+      "description": "When another racer rolls a 6 for their main move, I move 2.",
+      "notes": "If the order matters, I move before the other racer."
+    },
+    "leaptoad": {
+      "description": "I skip spaces with other  racers on them.",
+      "notes": "I skip occupied spaces even when moving backwards."
+    },
+    "legs": {
+      "description": "I can skip rolling for my main move and move 5 instead.",
+      "notes": "This counts as my main move, so Gunk can reduce it and Coach can increase it."
+    },
+    "loveable-loser": {
+      "description": "At the start of my turn, I get 1 point chip if I'm alone in last place.",
+      "notes": ""
+    },
+    "magician": {
+      "description": "I can reroll my main move up to two times.",
+      "notes": "I must use my last roll."
+    },
+    "mastermind": {
+      "description": "At the start of my first turn, I predict which racer will win. If I’m right, the race ends immediately and I finish 2nd.",
+      "notes": "If I predict myself, I can take both 1st and 2nd place."
+    },
+    "mouth": {
+      "description": "When I stop on a space with exactly one other racer, they’re eliminated from the race.",
+      "notes": ""
+    },
+    "party-animal": {
+      "description": "At the start of my turn, all racers move 1 space towards me. Each other racer on my space gives me +1 to my main move.",
+      "notes": "If Huge Baby moves onto my space through this power, everyone there is placed 1 space behind them."
+    },
+    "rocket-scientist": {
+      "description": "I can double my main move roll. When I do, I trip.",
+      "notes": "I roll first, then decide whether to use my power."
+    },
+    "romantic": {
+      "description": "When anyone stops on a space with exactly one other racer, I move 2.",
+      "notes": "My power does not trigger if two racers move together simultaneously, as with Party Animal or Suckerfish."
+    },
+    "scoocher": {
+      "description": "When another racer’s power happens, I move 1.",
+      "notes": "With Gunk, I move 1 for every −1 applied to a racer’s main move. With Dicemonger, I move for each reroll. With Leaptoad, I move 1 for each skipped space: two consecutive occupied spaces mean two separate moves of 1. I also move for each Magician reroll, even if its result is not used."
+    },
+    "sisyphus": {
+      "description": "Before my race, I take 4 point chips. When I roll a 6 for my main move, instead of moving, I warp to the Start and lose 1 point chip.",
+      "notes": "After more than four rolls of 6, I keep losing points as long as I have any. I do not take my main move after warping to Start."
+    },
+    "skipper": {
+      "description": "When anyone rolls a 1 for their main move, I go next in turn order.",
+      "notes": "After my turn, turn order continues to my left, unless I roll a 1 and go again!"
+    },
+    "stickler": {
+      "description": "Other racers can only cross the finish line by moving the exact amount they need. If they overshoot, they don’t move.",
+      "notes": "This applies to all movement, including main moves and powers. For example, Duelist cannot cross the finish line by winning a duel from the last space before the line."
+    },
+    "suckerfish": {
+      "description": "When a racer starts a move on my space, I can move with them.",
+      "notes": "Once I start moving with a racer, I must stay with them for their entire move. I can cross the finish line with this power. We arrive simultaneously, but the racer I follow resolves first for finishing and triggering powers."
+    },
+    "third-wheel": {
+      "description": "At the start of my turn, I can warp to any space with exactly 2 racers on it.",
+      "notes": "I still take my main move after warping."
+    },
+    "twin": {
+      "description": "Before my race, I can pick a racer who won a previous race and race with their powers.",
+      "notes": "Keep using my racer token. I also get the chosen racer’s “before my race” powers."
+    }
+  }
+}

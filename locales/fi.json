@@ -1,0 +1,173 @@
+{
+  "language": "fi",
+  "direction": "ltr",
+  "ui": {
+    "title": "Maaginen urheilija",
+    "heading": "Löydä korttisi",
+    "language": "Kieli",
+    "searchLabel": "Hae korttien nimiä ja kykyjä",
+    "searchPlaceholder": "Kirjoita kortin nimi tai kyky…",
+    "searchHint": "Kortin nimi tai kyky",
+    "clearSearch": "Tyhjennä haku",
+    "cardsLabel": "Kilpailijakortit",
+    "count": "Kortteja: {count}",
+    "filteredCount": "Kortteja: {count}/{total}",
+    "viewCard": "Näytä kortti {name}",
+    "cardImage": "Kortti {name}",
+    "notes": "Sääntöhuomio",
+    "emptyTitle": "Tämä kortti piilottelee!",
+    "emptyDescription": "Kokeile toista nimeä tai hakusanaa.",
+    "resetSearch": "Näytä kaikki kortit",
+    "close": "Sulje kortti",
+    "loadError": "Kortteja ei voitu ladata. Yritä uudelleen.",
+    "retry": "Yritä uudelleen",
+    "footerContribute": "Haluatko lisätä kielen, ehdottaa muutosta tai ilmoittaa ongelmasta?",
+    "footerGitHub": "Tutustu projektiin GitHubissa"
+  },
+  "cards": {
+    "alchemist": {
+      "description": "Kun heitän pääliikkeeni nopalla 1:n tai 2:n, voin liikkua sen sijaan 4 ruutua.",
+      "notes": ""
+    },
+    "baba-yaga": {
+      "description": "Jokainen kilpailija, joka pysähtyy ruutuuni tai jonka ruutuun minä pysähdyn, kompastuu.",
+      "notes": "Jos olen samassa ruudussa Duelistin kanssa, voimme otella, mutta Duelist kompastuu silti. Hypnotist voi teleportata minut omaan ruutuunsa, mutta kompastuu itsekin."
+    },
+    "banana": {
+      "description": "Jokainen minut ohittava kilpailija kompastuu.",
+      "notes": ""
+    },
+    "blimp": {
+      "description": "Jos aloitan vuoroni ennen radan toista mutkaa, pääliikkeeni saa +3. Toisessa mutkassa tai sen jälkeen pääliikkeeni saa −1.",
+      "notes": ""
+    },
+    "centaur": {
+      "description": "Kun ohitan kilpailijan, hän liikkuu 2 ruutua taaksepäin.",
+      "notes": "Kilpailijaa ei voi siirtää lähtöruutua kauemmas taaksepäin."
+    },
+    "cheerleader": {
+      "description": "Vuoroni alussa voin antaa kaikkien viimeisellä sijalla olevien kilpailijoiden liikkua 2 ruutua. Jos teen niin, liikun itse 1 ruudun.",
+      "notes": "Jos useampi kilpailija jakaa viimeisen sijan, kaikki liikkuvat, mutta minä liikun vain 1 ruudun. Jos kannustan itseäni, kyseessä on kaksi erillistä liikettä: ensin 2 ruutua, sitten 1 ruutu."
+    },
+    "coach": {
+      "description": "Kaikkien ruudussani olevien kilpailijoiden pääliike saa +1, myös minun.",
+      "notes": "Hyödyn myös itse omasta kyvystäni."
+    },
+    "copy-cat": {
+      "description": "Minulla on tällä hetkellä johtavan kilpailijan kyky. Jos johtopaikka on jaettu, valitsen yhden johtajista.",
+      "notes": "Minulla on aina nykyisen johtajan kyky, myös muiden vuoroilla. Ristiriitatilanteessa alkuperäisen kilpailijan kyky on etusijalla. En koskaan kopioi ”ennen kilpailuani” käytettäviä kykyjä. Jos johtopaikka on jaettu, en voi vaihtaa valitsemaani kykyä kesken toiminnon."
+    },
+    "dicemonger": {
+      "description": "Kuka tahansa voi heittää pääliikkeensä nopan uudelleen kerran vuorossa. Kun toinen kilpailija tekee niin, liikun 1 ruudun.",
+      "notes": "Kun joku muu heittää uudelleen, liikun ennen häntä."
+    },
+    "duelist": {
+      "description": "Kun kilpailija on kanssani samassa ruudussa, voin huutaa ”KAKSINTAISTELU!”. Heitämme molemmat noppaa, ja suuremman luvun heittänyt liikkuu 2 ruutua. Tasatilanteessa minä voitan.",
+      "notes": "Voin otella useita kertoja vuorossa, myös muiden vuoroilla, kunhan olemme samassa ruudussa. En voi keskeyttää käynnissä olevaa toimintoa, esimerkiksi nopanheiton ja liikkeen välissä."
+    },
+    "egg": {
+      "description": "Ennen kilpailuani nostan pakasta 3 uutta kilpailijakorttia ja valitsen yhden. Minulla on sen kyvyt.",
+      "notes": "Käytän edelleen omaa pelimerkkiäni. Saan myös valitun kilpailijan ”ennen kilpailuani” käytettävät kyvyt."
+    },
+    "flip-flop": {
+      "description": "Voin jättää pääliikkeeni nopan heittämättä ja vaihtaa sen sijaan paikkaa toisen kilpailijan kanssa.",
+      "notes": "Paikanvaihto on teleporttaus, ei liike, enkä heitä noppaa. Vaihdamme paikkaa samanaikaisesti, joten en ole missään vaiheessa samassa ruudussa toisen kilpailijan kanssa."
+    },
+    "genius": {
+      "description": "Voin ennustaa, minkä luvun heitän pääliikkeelleni. Jos olen oikeassa, saan ylimääräisen vuoron.",
+      "notes": "Jos ennustan 1:n oikein Skipperin ollessa kilpailussa, Skipper saa seuraavan vuoron, koska hänen kykynsä aktivoituu omani jälkeen. Jos ohjaan useita kilpailijoita, ylimääräinen vuoro koskee vain Geniusta."
+    },
+    "gunk": {
+      "description": "Muiden kilpailijoiden pääliike saa −1.",
+      "notes": "Tämä vähentää liikkeen pituutta, ei nopan tulosta. 6 ei muutu 5:ksi, joten Lackeyn kyky aktivoituu edelleen."
+    },
+    "hare": {
+      "description": "Pääliikkeeni saa +2. Jos aloitan vuoroni yksin johdossa, jätän pääliikkeeni tekemättä.",
+      "notes": ""
+    },
+    "heckler": {
+      "description": "Kun kilpailija päättää vuoronsa aloitusruutuunsa tai enintään 1 ruudun päähän siitä, liikun 2 ruutua.",
+      "notes": "Kykyni toimii myös kilpailijoihin, jotka käyttävät vuoronsa kompastumisesta toipumiseen."
+    },
+    "huge-baby": {
+      "description": "Kukaan ei saa olla ruudussani, paitsi lähtöruudussa. Aina kun niin tapahtuisi, kilpailija asetetaan sen sijaan ruutuun takanani.",
+      "notes": "Kilpailijan asettaminen taakseni ei ole liike; hänen katsotaan pysähtyneen siihen. Jos pysähdyn Bananan ruutuun ja asetan Bananan taakseni, se lasketaan Bananan ohittamiseksi, joten kompastun."
+    },
+    "hypnotist": {
+      "description": "Vuoroni alussa voin teleportata kilpailijan omaan ruutuuni.",
+      "notes": ""
+    },
+    "inchworm": {
+      "description": "Kun toinen kilpailija heittää pääliikkeelleen 1:n, hän jättää kyseisen liikkeen tekemättä ja minä liikun 1 ruudun.",
+      "notes": "Jos toinen kilpailija heittää 1:n ja Skipper on mukana kilpailussa, liikun ensin 1 ruudun, minkä jälkeen Skipper saa vuoronsa."
+    },
+    "lackey": {
+      "description": "Kun toinen kilpailija heittää pääliikkeelleen 6:n, liikun 2 ruutua.",
+      "notes": "Jos liikkeiden järjestyksellä on merkitystä, liikun ennen toista kilpailijaa."
+    },
+    "leaptoad": {
+      "description": "Hyppään muiden kilpailijoiden varaamien ruutujen yli; niitä ei lasketa liikkeeni pituuteen.",
+      "notes": "Hyppään varattujen ruutujen yli myös liikkuessani taaksepäin."
+    },
+    "legs": {
+      "description": "Voin jättää pääliikkeeni nopan heittämättä ja liikkua sen sijaan 5 ruutua.",
+      "notes": "Tämä lasketaan pääliikkeekseni, joten Gunk voi lyhentää sitä ja Coach voi pidentää sitä."
+    },
+    "loveable-loser": {
+      "description": "Vuoroni alussa saan 1 pistemerkin, jos olen yksin viimeisellä sijalla.",
+      "notes": ""
+    },
+    "magician": {
+      "description": "Voin heittää pääliikkeeni nopan uudelleen enintään kaksi kertaa.",
+      "notes": "Minun on käytettävä viimeisen heittoni tulosta."
+    },
+    "mastermind": {
+      "description": "Ensimmäisen vuoroni alussa ennustan, kuka kilpailija voittaa. Jos olen oikeassa, kilpailu päättyy heti ja sijoitun toiseksi.",
+      "notes": "Jos ennustan itseni voittajaksi, voin saada sekä ensimmäisen että toisen sijan."
+    },
+    "mouth": {
+      "description": "Kun pysähdyn ruutuun, jossa on täsmälleen yksi muu kilpailija, hän putoaa pois kilpailusta.",
+      "notes": ""
+    },
+    "party-animal": {
+      "description": "Vuoroni alussa kaikki kilpailijat liikkuvat 1 ruudun minua kohti. Jokainen muu ruudussani oleva kilpailija antaa pääliikkeelleni +1.",
+      "notes": "Jos Huge Baby tulee ruutuuni tämän kyvyn avulla, kaikki ruudussa olevat asetetaan 1 ruudun päähän Huge Babyn taakse."
+    },
+    "rocket-scientist": {
+      "description": "Voin kaksinkertaistaa pääliikkeeni nopan tuloksen. Jos teen niin, kompastun.",
+      "notes": "Heitän ensin noppaa ja päätän vasta sitten, käytänkö kykyäni."
+    },
+    "romantic": {
+      "description": "Kun joku pysähtyy ruutuun, jossa on täsmälleen yksi muu kilpailija, liikun 2 ruutua.",
+      "notes": "Kykyni ei aktivoidu, jos kaksi kilpailijaa liikkuu yhdessä samanaikaisesti, kuten Party Animalin tai Suckerfishin avulla."
+    },
+    "scoocher": {
+      "description": "Aina kun toisen kilpailijan kykyä käytetään, liikun 1 ruudun.",
+      "notes": "Gunkin kanssa liikun 1 ruudun jokaisesta kilpailijan pääliikkeeseen kohdistuvasta −1:stä. Dicemongerin kanssa liikun jokaisesta uusintaheitosta. Leaptoadin kanssa liikun jokaisesta ohitetusta ruudusta: kaksi peräkkäistä varattua ruutua tarkoittaa kahta erillistä 1 ruudun liikettä. Liikun myös jokaisesta Magicianin uusintaheitosta, vaikka sen tulosta ei käytettäisi."
+    },
+    "sisyphus": {
+      "description": "Ennen kilpailuani otan 4 pistemerkkiä. Kun heitän pääliikkeelleni 6:n, teleporttaan lähtöön liikkumisen sijaan ja menetän 1 pistemerkin.",
+      "notes": "Jos heitän enemmän kuin neljä kuutosta, menetän edelleen pisteitä niin kauan kuin niitä on jäljellä. Lähtöön teleportattuani en tee pääliikettäni."
+    },
+    "skipper": {
+      "description": "Kun kuka tahansa heittää pääliikkeelleen 1:n, minä saan seuraavan vuoron.",
+      "notes": "Vuoroni jälkeen vuorojärjestys jatkuu vasemmalle minusta, paitsi jos heitän itse 1:n ja saan uuden vuoron!"
+    },
+    "stickler": {
+      "description": "Muut kilpailijat voivat ylittää maaliviivan vain liikkumalla täsmälleen tarvittavan määrän ruutuja. Jos liike olisi liian pitkä, he eivät tee kyseistä liikettä lainkaan.",
+      "notes": "Tämä koskee kaikkia liikkeitä, myös pääliikkeitä ja kykyjen aiheuttamia liikkeitä. Esimerkiksi Duelist ei voi ylittää maaliviivaa voittamalla kaksintaistelun viimeisessä ruudussa ennen maalia."
+    },
+    "suckerfish": {
+      "description": "Kun kilpailija aloittaa liikkeen ruudustani, voin liikkua hänen mukanaan.",
+      "notes": "Kun lähden kilpailijan mukaan, minun on pysyttävä mukana koko liikkeen ajan. Voin ylittää maaliviivan tällä kyvyllä. Saavumme samanaikaisesti, mutta kilpailija, jota seuraan, käsitellään ensin maaliintulossa ja kykyjen aktivoitumisessa."
+    },
+    "third-wheel": {
+      "description": "Vuoroni alussa voin teleportata mihin tahansa ruutuun, jossa on täsmälleen 2 kilpailijaa.",
+      "notes": "Teleporttauksen jälkeen teen edelleen pääliikkeeni."
+    },
+    "twin": {
+      "description": "Ennen kilpailuani voin valita kilpailijan, joka voitti jonkin aiemman kilpailun, ja kilpailla hänen kyvyillään.",
+      "notes": "Käytän edelleen omaa pelimerkkiäni. Saan myös valitun kilpailijan ”ennen kilpailuani” käytettävät kyvyt."
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "language": "fr",
+  "direction": "ltr",
+  "ui": {
+    "title": "Athlète magique",
+    "heading": "Trouve ta carte",
+    "language": "Langue",
+    "searchLabel": "Rechercher un nom de carte ou une capacité",
+    "searchPlaceholder": "Écris un nom de carte ou une capacité…",
+    "searchHint": "Nom de carte ou capacité",
+    "clearSearch": "Effacer la recherche",
+    "cardsLabel": "Cartes des participants",
+    "count": "{count} cartes",
+    "filteredCount": "{count} sur {total} cartes",
+    "viewCard": "Voir la carte de {name}",
+    "cardImage": "Carte de {name}",
+    "notes": "Précision de règle",
+    "emptyTitle": "Cette carte se cache !",
+    "emptyDescription": "Essaie un autre nom ou mot-clé.",
+    "resetSearch": "Afficher toutes les cartes",
+    "close": "Fermer la carte",
+    "loadError": "Impossible de charger les cartes. Réessaie.",
+    "retry": "Réessayer",
+    "footerContribute": "Tu veux ajouter une langue, proposer une modification ou signaler un problème ?",
+    "footerGitHub": "Retrouve le projet sur GitHub"
+  },
+  "cards": {
+    "alchemist": {
+      "description": "Quand j’obtiens un 1 ou un 2 pour mon déplacement principal, je peux me déplacer de 4 cases à la place.",
+      "notes": ""
+    },
+    "baba-yaga": {
+      "description": "Tout participant qui s’arrête sur ma case, ou sur la case duquel je m’arrête, trébuche.",
+      "notes": "Si je partage une case avec Duelist, nous pouvons faire un duel, mais Duelist trébuche quand même. Hypnotist peut me téléporter sur sa case, mais trébuche également."
+    },
+    "banana": {
+      "description": "Je fais trébucher tout participant qui me dépasse.",
+      "notes": ""
+    },
+    "blimp": {
+      "description": "Si je commence mon tour avant le deuxième virage de la piste, mon déplacement principal gagne +3. Sur ce virage ou après, il reçoit −1.",
+      "notes": ""
+    },
+    "centaur": {
+      "description": "Quand je dépasse un participant, il recule de 2 cases.",
+      "notes": "Un participant ne peut pas être repoussé au-delà de la case Départ."
+    },
+    "cheerleader": {
+      "description": "Au début de mon tour, je peux faire avancer de 2 cases tous les participants à la dernière place. Si je le fais, j’avance de 1 case.",
+      "notes": "Si plusieurs participants sont derniers à égalité, ils avancent tous, mais je n’avance que de 1 case. Si je m’encourage moi-même, ce sont deux déplacements distincts : 2 cases, puis 1 case."
+    },
+    "coach": {
+      "description": "Le déplacement principal de tous les participants sur ma case, moi compris, gagne +1.",
+      "notes": "Je profite aussi de ma propre capacité."
+    },
+    "copy-cat": {
+      "description": "J’ai la capacité du participant actuellement en tête. En cas d’égalité, j’en choisis un.",
+      "notes": "J’ai toujours la capacité du participant actuellement en tête, même en dehors de mon tour. En cas de contradiction, sa capacité d’origine est prioritaire. Je ne copie jamais les capacités « avant ma course ». Si plusieurs participants sont en tête, je ne peux pas changer de capacité au milieu d’une action."
+    },
+    "dicemonger": {
+      "description": "Chacun peut relancer une fois par tour son dé de déplacement principal. Quand un autre participant le fait, j’avance de 1 case.",
+      "notes": "Quand quelqu’un d’autre relance son dé, je me déplace avant lui."
+    },
+    "duelist": {
+      "description": "Dès qu’un participant partage ma case, je peux crier « DUEL ! ». Nous lançons chacun notre dé ; le résultat le plus élevé avance de 2 cases. Je gagne les égalités.",
+      "notes": "Je peux faire plusieurs duels par tour, même en dehors de mon tour, tant que nous partageons une case. Je ne peux pas interrompre une action en cours, par exemple entre un lancer de dé et un déplacement."
+    },
+    "egg": {
+      "description": "Avant ma course, je pioche 3 nouveaux participants dans le paquet et j’en choisis un. J’ai ses capacités.",
+      "notes": "J’utilise toujours mon propre pion. Je bénéficie aussi des capacités « avant ma course » du participant choisi."
+    },
+    "flip-flop": {
+      "description": "Je peux renoncer au lancer de dé de mon déplacement principal et échanger ma place avec celle d’un autre participant.",
+      "notes": "Cet échange est une téléportation, pas un déplacement, et je ne lance pas de dé. L’échange est simultané : je ne partage donc jamais une case avec le participant concerné."
+    },
+    "genius": {
+      "description": "Je peux prédire le résultat de mon dé de déplacement principal. Si j’ai raison, je joue un tour supplémentaire.",
+      "notes": "Si je prédis correctement un 1 face à Skipper, Skipper joue le tour suivant, car sa capacité se déclenche après la mienne. Si je contrôle plusieurs participants, seul Genius bénéficie du tour supplémentaire."
+    },
+    "gunk": {
+      "description": "Le déplacement principal des autres participants reçoit −1.",
+      "notes": "Cela réduit la distance du déplacement, pas le résultat du dé. Un 6 ne devient donc pas un 5, et la capacité de Lackey se déclenche toujours."
+    },
+    "hare": {
+      "description": "Mon déplacement principal gagne +2. Si je commence mon tour seul en tête, je saute mon déplacement principal.",
+      "notes": ""
+    },
+    "heckler": {
+      "description": "Quand un participant termine son tour sur sa case de départ du tour ou à 1 case au maximum de celle-ci, j’avance de 2 cases.",
+      "notes": "Ma capacité fonctionne aussi quand un participant passe son tour à se relever après avoir trébuché."
+    },
+    "huge-baby": {
+      "description": "Personne ne peut être sur ma case, sauf sur la case Départ. Dès que cela devrait arriver, placez le participant sur la case derrière moi à la place.",
+      "notes": "Placer quelqu’un derrière moi ne compte pas comme un déplacement : il est considéré comme s’étant arrêté là. Si je m’arrête sur la case de Banana et le place derrière moi, cela compte comme un dépassement de Banana, donc je trébuche."
+    },
+    "hypnotist": {
+      "description": "Au début de mon tour, je peux téléporter un participant sur ma case.",
+      "notes": ""
+    },
+    "inchworm": {
+      "description": "Quand un autre participant obtient un 1 pour son déplacement principal, il saute ce déplacement et j’avance de 1 case.",
+      "notes": "Si un autre participant obtient un 1 alors que Skipper participe aussi, j’avance d’abord de 1 case, puis Skipper joue son tour."
+    },
+    "lackey": {
+      "description": "Quand un autre participant obtient un 6 pour son déplacement principal, j’avance de 2 cases.",
+      "notes": "Si l’ordre est important, je me déplace avant l’autre participant."
+    },
+    "leaptoad": {
+      "description": "Je saute les cases occupées par d’autres participants ; elles ne comptent pas dans la distance de mon déplacement.",
+      "notes": "Cela s’applique même quand je recule."
+    },
+    "legs": {
+      "description": "Je peux renoncer au lancer de dé de mon déplacement principal et avancer de 5 cases à la place.",
+      "notes": "Cela compte comme mon déplacement principal : Gunk peut donc le réduire et Coach peut l’augmenter."
+    },
+    "loveable-loser": {
+      "description": "Au début de mon tour, je reçois 1 jeton de points si je suis seul à la dernière place.",
+      "notes": ""
+    },
+    "magician": {
+      "description": "Je peux relancer jusqu’à deux fois mon dé de déplacement principal.",
+      "notes": "Je dois utiliser le résultat de mon dernier lancer."
+    },
+    "mastermind": {
+      "description": "Au début de mon premier tour, je prédis quel participant gagnera. Si j’ai raison, la course se termine immédiatement et je finis deuxième.",
+      "notes": "Si je me désigne moi-même, je peux obtenir à la fois la première et la deuxième place."
+    },
+    "mouth": {
+      "description": "Quand je m’arrête sur une case avec exactement un autre participant, celui-ci est éliminé de la course.",
+      "notes": ""
+    },
+    "party-animal": {
+      "description": "Au début de mon tour, tous les participants se déplacent de 1 case vers moi. Chaque autre participant sur ma case donne +1 à mon déplacement principal.",
+      "notes": "Si Huge Baby arrive sur ma case grâce à cette capacité, toutes les personnes présentes sont placées 1 case derrière Huge Baby."
+    },
+    "rocket-scientist": {
+      "description": "Je peux doubler le résultat du dé de mon déplacement principal. Si je le fais, je trébuche.",
+      "notes": "Je lance d’abord le dé, puis je décide si j’utilise ma capacité."
+    },
+    "romantic": {
+      "description": "Quand quelqu’un s’arrête sur une case avec exactement un autre participant, j’avance de 2 cases.",
+      "notes": "Ma capacité ne se déclenche pas si deux participants se déplacent ensemble et simultanément, comme avec Party Animal ou Suckerfish."
+    },
+    "scoocher": {
+      "description": "Chaque fois que la capacité d’un autre participant est appliquée, j’avance de 1 case.",
+      "notes": "Avec Gunk, j’avance de 1 case pour chaque −1 appliqué au déplacement principal d’un participant. Avec Dicemonger, j’avance pour chaque relance. Avec Leaptoad, j’avance pour chaque case sautée : deux cases occupées consécutives donnent deux déplacements distincts de 1 case. J’avance aussi pour chaque relance de Magician, même si le résultat n’est pas utilisé."
+    },
+    "sisyphus": {
+      "description": "Avant ma course, je prends 4 jetons de points. Si j’obtiens un 6 pour mon déplacement principal, je me téléporte au Départ au lieu de me déplacer et je perds 1 jeton de points.",
+      "notes": "Après plus de quatre résultats de 6, je continue à perdre des points tant qu’il m’en reste. Après ma téléportation au Départ, je n’effectue pas mon déplacement principal."
+    },
+    "skipper": {
+      "description": "Dès que quelqu’un obtient un 1 pour son déplacement principal, je joue le tour suivant.",
+      "notes": "Après mon tour, l’ordre des tours reprend à ma gauche, sauf si j’obtiens un 1 et rejoue !"
+    },
+    "stickler": {
+      "description": "Les autres participants ne peuvent franchir la ligne d’arrivée qu’en parcourant exactement le nombre de cases nécessaire. S’ils la dépasseraient, ils ne se déplacent pas du tout.",
+      "notes": "Cela s’applique à tous les déplacements, y compris ceux des capacités. Par exemple, Duelist ne franchit pas l’arrivée en gagnant un duel depuis la dernière case avant la ligne."
+    },
+    "suckerfish": {
+      "description": "Quand un participant commence un déplacement depuis ma case, je peux l’accompagner.",
+      "notes": "Une fois parti avec un participant, je dois l’accompagner jusqu’à la fin de son déplacement complet. Je peux franchir l’arrivée grâce à cette capacité. Nous arrivons simultanément, mais le participant accompagné est traité en premier pour le classement et le déclenchement des capacités."
+    },
+    "third-wheel": {
+      "description": "Au début de mon tour, je peux me téléporter sur n’importe quelle case contenant exactement 2 participants.",
+      "notes": "Après la téléportation, j’effectue quand même mon déplacement principal."
+    },
+    "twin": {
+      "description": "Avant ma course, je peux choisir un participant qui a gagné une course précédente et courir avec ses capacités.",
+      "notes": "J’utilise toujours mon propre pion. Je bénéficie aussi des capacités « avant ma course » du participant choisi."
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "language": "sv",
+  "direction": "ltr",
+  "ui": {
+    "title": "Magisk atlet",
+    "heading": "Hitta ditt kort",
+    "language": "Språk",
+    "searchLabel": "Sök efter kortnamn och förmågor",
+    "searchPlaceholder": "Skriv ett kortnamn eller en förmåga…",
+    "searchHint": "Kortnamn eller förmåga",
+    "clearSearch": "Rensa sökningen",
+    "cardsLabel": "Tävlingskort",
+    "count": "{count} kort",
+    "filteredCount": "{count} av {total} kort",
+    "viewCard": "Visa kortet {name}",
+    "cardImage": "Kortet {name}",
+    "notes": "Regeltips",
+    "emptyTitle": "Det här kortet gömmer sig!",
+    "emptyDescription": "Prova ett annat namn eller sökord.",
+    "resetSearch": "Visa alla kort",
+    "close": "Stäng kortet",
+    "loadError": "Korten kunde inte laddas. Försök igen.",
+    "retry": "Försök igen",
+    "footerContribute": "Vill du lägga till ett språk, föreslå en ändring eller rapportera ett problem?",
+    "footerGitHub": "Besök projektet på GitHub"
+  },
+  "cards": {
+    "alchemist": {
+      "description": "När jag slår 1 eller 2 för min huvudförflyttning kan jag i stället flytta 4 rutor.",
+      "notes": ""
+    },
+    "baba-yaga": {
+      "description": "Varje tävlande som stannar på min ruta, eller på vars ruta jag stannar, snubblar.",
+      "notes": "Om jag delar ruta med Duelist kan vi duellera, men Duelist snubblar ändå. Hypnotist kan teleportera mig till sin ruta, men snubblar också."
+    },
+    "banana": {
+      "description": "Varje tävlande som passerar mig snubblar.",
+      "notes": ""
+    },
+    "blimp": {
+      "description": "Om jag börjar min tur före banans andra kurva får min huvudförflyttning +3. På eller efter den kurvan får den −1.",
+      "notes": ""
+    },
+    "centaur": {
+      "description": "När jag passerar en tävlande flyttar den tävlande 2 rutor bakåt.",
+      "notes": "En tävlande kan inte flyttas längre bak än till startrutan."
+    },
+    "cheerleader": {
+      "description": "I början av min tur kan jag låta alla tävlande på sista plats flytta 2 rutor. Om jag gör det flyttar jag själv 1 ruta.",
+      "notes": "Om flera tävlande delar sista plats flyttar alla, men jag flyttar bara 1 ruta. Om jag hejar på mig själv är det två separata förflyttningar: först 2 rutor, sedan 1 ruta."
+    },
+    "coach": {
+      "description": "Huvudförflyttningen för alla tävlande på min ruta, inklusive mig själv, får +1.",
+      "notes": "Min förmåga gäller även mig själv."
+    },
+    "copy-cat": {
+      "description": "Jag har förmågan hos den tävlande som just nu leder. Om flera delar ledningen väljer jag en av dem.",
+      "notes": "Jag har alltid den nuvarande ledarens förmåga, även när det inte är min tur. Vid en motsägelse har den ursprungliga tävlandes förmåga företräde. Jag kopierar aldrig förmågor som gäller ”före mitt lopp”. Vid delad ledning får jag inte byta vald förmåga mitt i en handling."
+    },
+    "dicemonger": {
+      "description": "Alla får slå om tärningen för sin huvudförflyttning en gång per tur. När en annan tävlande gör det flyttar jag 1 ruta.",
+      "notes": "När någon annan slår om flyttar jag före den tävlande."
+    },
+    "duelist": {
+      "description": "När en tävlande delar min ruta kan jag ropa ”DUELL!”. Vi slår varsin tärning och den som slår högst flyttar 2 rutor. Vid lika resultat vinner jag.",
+      "notes": "Jag kan duellera flera gånger under en tur, även när det inte är min tur, så länge vi delar ruta. Jag får inte avbryta en pågående handling, till exempel mellan ett tärningsslag och en förflyttning."
+    },
+    "egg": {
+      "description": "Före mitt lopp drar jag 3 nya tävlande ur kortleken och väljer en. Jag har den tävlandes förmågor.",
+      "notes": "Jag använder fortfarande min egen spelpjäs. Jag får även den valda tävlandes förmågor som gäller ”före mitt lopp”."
+    },
+    "flip-flop": {
+      "description": "Jag kan avstå från tärningsslaget för min huvudförflyttning och i stället byta plats med en annan tävlande.",
+      "notes": "Platsbytet är en teleportering, inte en förflyttning, och jag slår ingen tärning. Vi byter plats samtidigt, så jag delar aldrig ruta med den jag byter med."
+    },
+    "genius": {
+      "description": "Jag kan förutsäga vilken siffra jag kommer att slå för min huvudförflyttning. Om jag har rätt får jag en extra tur.",
+      "notes": "Om jag förutsäger en 1:a rätt när Skipper är med i loppet får Skipper nästa tur, eftersom den förmågan utlöses efter min. Om jag styr flera tävlande gäller den extra turen bara Genius."
+    },
+    "gunk": {
+      "description": "Alla andra tävlandes huvudförflyttning får −1.",
+      "notes": "Detta minskar förflyttningens längd, inte tärningsresultatet. En 6:a blir alltså inte en 5:a, så Lackeys förmåga utlöses fortfarande."
+    },
+    "hare": {
+      "description": "Min huvudförflyttning får +2. Om jag börjar min tur ensam i ledningen hoppar jag över min huvudförflyttning.",
+      "notes": ""
+    },
+    "heckler": {
+      "description": "När en tävlande avslutar sin tur på rutan där turen började eller högst 1 ruta därifrån flyttar jag 2 rutor.",
+      "notes": "Min förmåga gäller även tävlande som använder sin tur till att resa sig efter att ha snubblat."
+    },
+    "huge-baby": {
+      "description": "Ingen får stå på min ruta, utom på startrutan. När det annars skulle hända placeras den tävlande i stället på rutan bakom mig.",
+      "notes": "Att placera en tävlande bakom mig räknas inte som en förflyttning; det räknas som att den tävlande stannade där. Om jag stannar på Bananas ruta och placerar Banana bakom mig räknas det som att jag passerar Banana, så jag snubblar."
+    },
+    "hypnotist": {
+      "description": "I början av min tur kan jag teleportera en tävlande till min ruta.",
+      "notes": ""
+    },
+    "inchworm": {
+      "description": "När en annan tävlande slår 1 för sin huvudförflyttning hoppar den tävlande över förflyttningen och jag flyttar 1 ruta.",
+      "notes": "Om en annan tävlande slår 1 när Skipper också är med flyttar jag först 1 ruta, sedan tar Skipper sin tur."
+    },
+    "lackey": {
+      "description": "När en annan tävlande slår 6 för sin huvudförflyttning flyttar jag 2 rutor.",
+      "notes": "Om ordningen spelar roll flyttar jag före den andra tävlande."
+    },
+    "leaptoad": {
+      "description": "Jag hoppar över rutor där andra tävlande står; de räknas inte in i min förflyttnings längd.",
+      "notes": "Jag hoppar över upptagna rutor även när jag flyttar bakåt."
+    },
+    "legs": {
+      "description": "Jag kan avstå från tärningsslaget för min huvudförflyttning och i stället flytta 5 rutor.",
+      "notes": "Detta räknas som min huvudförflyttning, så Gunk kan minska den och Coach kan öka den."
+    },
+    "loveable-loser": {
+      "description": "I början av min tur får jag 1 poängmarkör om jag är ensam på sista plats.",
+      "notes": ""
+    },
+    "magician": {
+      "description": "Jag kan slå om tärningen för min huvudförflyttning upp till två gånger.",
+      "notes": "Jag måste använda resultatet av mitt sista slag."
+    },
+    "mastermind": {
+      "description": "I början av min första tur förutsäger jag vilken tävlande som vinner. Om jag har rätt avslutas loppet genast och jag kommer på andra plats.",
+      "notes": "Om jag förutsäger att jag själv vinner kan jag få både första och andra plats."
+    },
+    "mouth": {
+      "description": "När jag stannar på en ruta med exakt en annan tävlande elimineras den tävlande ur loppet.",
+      "notes": ""
+    },
+    "party-animal": {
+      "description": "I början av min tur flyttar alla tävlande 1 ruta mot mig. Varje annan tävlande på min ruta ger min huvudförflyttning +1.",
+      "notes": "Om Huge Baby flyttar till min ruta med denna förmåga placeras alla där 1 ruta bakom Huge Baby."
+    },
+    "rocket-scientist": {
+      "description": "Jag kan dubbla tärningsresultatet för min huvudförflyttning. Om jag gör det snubblar jag.",
+      "notes": "Jag slår tärningen först och bestämmer sedan om jag ska använda förmågan."
+    },
+    "romantic": {
+      "description": "När någon stannar på en ruta med exakt en annan tävlande flyttar jag 2 rutor.",
+      "notes": "Min förmåga utlöses inte om två tävlande flyttar tillsammans samtidigt, som med Party Animal eller Suckerfish."
+    },
+    "scoocher": {
+      "description": "Varje gång en annan tävlandes förmåga används flyttar jag 1 ruta.",
+      "notes": "Med Gunk flyttar jag 1 ruta för varje −1 som påverkar en tävlandes huvudförflyttning. Med Dicemonger flyttar jag vid varje omslag. Med Leaptoad flyttar jag för varje överhoppad ruta: två upptagna rutor i följd ger två separata förflyttningar på 1 ruta. Jag flyttar också vid varje omslag som Magician gör, även om resultatet inte används."
+    },
+    "sisyphus": {
+      "description": "Före mitt lopp tar jag 4 poängmarkörer. När jag slår 6 för min huvudförflyttning teleporterar jag mig till starten i stället för att flytta och förlorar 1 poängmarkör.",
+      "notes": "Om jag slår fler än fyra 6:or fortsätter jag att förlora poäng så länge jag har några kvar. Efter teleporteringen till starten gör jag inte min huvudförflyttning."
+    },
+    "skipper": {
+      "description": "När någon slår 1 för sin huvudförflyttning får jag nästa tur.",
+      "notes": "Efter min tur fortsätter turordningen åt vänster från mig, om jag inte slår 1 och får ännu en tur!"
+    },
+    "stickler": {
+      "description": "Andra tävlande kan bara passera mållinjen genom att flytta exakt så långt som behövs. Om de skulle flytta för långt gör de inte förflyttningen alls.",
+      "notes": "Detta gäller alla förflyttningar, både huvudförflyttningar och förmågor. Duelist kan till exempel inte passera mållinjen genom att vinna en duell från den sista rutan före målet."
+    },
+    "suckerfish": {
+      "description": "När en tävlande börjar en förflyttning på min ruta kan jag följa med.",
+      "notes": "När jag väl följer med en tävlande måste jag vara med under hela förflyttningen. Jag kan passera mållinjen med denna förmåga. Vi kommer fram samtidigt, men den tävlande jag följer räknas först vid målgång och när förmågor utlöses."
+    },
+    "third-wheel": {
+      "description": "I början av min tur kan jag teleportera mig till valfri ruta med exakt 2 tävlande.",
+      "notes": "Efter teleporteringen gör jag fortfarande min huvudförflyttning."
+    },
+    "twin": {
+      "description": "Före mitt lopp kan jag välja en tävlande som har vunnit ett tidigare lopp och tävla med den tävlandes förmågor.",
+      "notes": "Jag använder fortfarande min egen spelpjäs. Jag får även den valda tävlandes förmågor som gäller ”före mitt lopp”."
+    }
+  }
+}

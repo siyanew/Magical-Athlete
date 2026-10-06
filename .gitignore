@@ -1,0 +1,11 @@
+node_modules/
+.openai/
+.sites-runtime/
+.agents/
+.codex/
+.aws/
+.DS_Store
+*.log
+manual.pdf
+scripts/
+dist/

@@ -1,0 +1,173 @@
+{
+  "language": "es",
+  "direction": "ltr",
+  "ui": {
+    "title": "Atleta mágico",
+    "heading": "Encuentra tu carta",
+    "language": "Idioma",
+    "searchLabel": "Buscar nombres de cartas y habilidades",
+    "searchPlaceholder": "Escribe un nombre o una habilidad…",
+    "searchHint": "Nombre de carta o habilidad",
+    "clearSearch": "Borrar búsqueda",
+    "cardsLabel": "Cartas de los corredores",
+    "count": "{count} cartas",
+    "filteredCount": "{count} de {total} cartas",
+    "viewCard": "Ver la carta de {name}",
+    "cardImage": "Carta de {name}",
+    "notes": "Aclaración de reglas",
+    "emptyTitle": "¡Esta carta se esconde!",
+    "emptyDescription": "Prueba otro nombre o palabra clave.",
+    "resetSearch": "Mostrar todas las cartas",
+    "close": "Cerrar carta",
+    "loadError": "No se pudieron cargar las cartas. Inténtalo de nuevo.",
+    "retry": "Reintentar",
+    "footerContribute": "¿Quieres añadir un idioma, proponer un cambio o informar de un problema?",
+    "footerGitHub": "Visita el proyecto en GitHub"
+  },
+  "cards": {
+    "alchemist": {
+      "description": "Cuando saco un 1 o un 2 para mi movimiento principal, puedo moverme 4 casillas en su lugar.",
+      "notes": ""
+    },
+    "baba-yaga": {
+      "description": "Hago tropezar a cualquier corredor que se detenga en mi casilla, o en cuya casilla me detenga yo.",
+      "notes": "Si comparto casilla con Duelist, podemos batirnos en duelo, pero Duelist tropieza igualmente. Hypnotist puede teletransportarme a su casilla, pero también tropieza."
+    },
+    "banana": {
+      "description": "Hago tropezar a cualquier corredor que me adelante.",
+      "notes": ""
+    },
+    "blimp": {
+      "description": "Si empiezo mi turno antes de la segunda curva de la pista, mi movimiento principal recibe +3. En esa curva o después, recibe −1.",
+      "notes": ""
+    },
+    "centaur": {
+      "description": "Cuando adelanto a un corredor, este retrocede 2 casillas.",
+      "notes": "No se puede hacer retroceder a un corredor más allá de la casilla de Salida."
+    },
+    "cheerleader": {
+      "description": "Al empezar mi turno, puedo hacer que todos los corredores en último lugar avancen 2 casillas. Si lo hago, yo avanzo 1 casilla.",
+      "notes": "Si varios corredores empatan en último lugar, todos se mueven, pero yo solo avanzo 1 casilla. Si me animo a mí mismo, son dos movimientos separados: primero 2 casillas y luego 1."
+    },
+    "coach": {
+      "description": "El movimiento principal de todos los corredores en mi casilla, incluido yo, recibe +1.",
+      "notes": "Yo también me beneficio de mi propia habilidad."
+    },
+    "copy-cat": {
+      "description": "Tengo la habilidad del corredor que va en cabeza en este momento. Si hay un empate, elijo uno.",
+      "notes": "Siempre tengo la habilidad del líder actual, incluso fuera de mi turno. Si hay una contradicción, la habilidad del corredor original tiene prioridad. Nunca copio las habilidades «antes de mi carrera». Si hay varios líderes, no puedo cambiar la habilidad elegida en medio de una acción."
+    },
+    "dicemonger": {
+      "description": "Cualquiera puede repetir una vez por turno la tirada de su movimiento principal. Cuando otro corredor lo hace, avanzo 1 casilla.",
+      "notes": "Cuando otra persona repite su tirada, me muevo antes que ella."
+    },
+    "duelist": {
+      "description": "Cuando un corredor comparte mi casilla, puedo gritar «¡DUELO!». Ambos tiramos el dado; quien saque el resultado más alto avanza 2 casillas. Yo gano los empates.",
+      "notes": "Puedo batirme en duelo varias veces por turno, incluso fuera de mi turno, siempre que compartamos casilla. No puedo interrumpir una acción en curso, por ejemplo entre una tirada y un movimiento."
+    },
+    "egg": {
+      "description": "Antes de mi carrera, robo 3 corredores nuevos del mazo y elijo uno. Tengo sus habilidades.",
+      "notes": "Sigo usando mi propia ficha de corredor. También obtengo las habilidades «antes de mi carrera» del corredor elegido."
+    },
+    "flip-flop": {
+      "description": "Puedo no tirar el dado para mi movimiento principal e intercambiar mi posición con la de otro corredor.",
+      "notes": "El intercambio es una teletransportación, no un movimiento, y no tiro el dado. Intercambiamos posiciones simultáneamente, así que nunca comparto casilla con el corredor con quien hago el intercambio."
+    },
+    "genius": {
+      "description": "Puedo predecir qué número sacaré para mi movimiento principal. Si acierto, juego un turno adicional.",
+      "notes": "Si predigo correctamente un 1 mientras compito contra Skipper, Skipper juega el siguiente turno porque su habilidad se activa después de la mía. Si controlo varios corredores, el turno adicional solo corresponde a Genius."
+    },
+    "gunk": {
+      "description": "El movimiento principal de los demás corredores recibe −1.",
+      "notes": "Esto reduce la distancia del movimiento, no el resultado del dado. Un 6 no se convierte en un 5, por lo que la habilidad de Lackey sigue activándose."
+    },
+    "hare": {
+      "description": "Mi movimiento principal recibe +2. Si empiezo mi turno en cabeza y sin empatar con nadie, no realizo mi movimiento principal.",
+      "notes": ""
+    },
+    "heckler": {
+      "description": "Cuando un corredor termina su turno en la casilla donde lo empezó o a un máximo de 1 casilla de ella, avanzo 2 casillas.",
+      "notes": "Mi habilidad también funciona con los corredores que dedican su turno a recuperarse de un tropiezo."
+    },
+    "huge-baby": {
+      "description": "Nadie puede estar en mi casilla, salvo en la de Salida. Cuando eso fuera a ocurrir, coloca al corredor en la casilla inmediatamente detrás de mí.",
+      "notes": "Colocar a un corredor detrás de mí no cuenta como un movimiento: se considera que se ha detenido allí. Si me detengo en la casilla de Banana y lo coloco detrás de mí, eso cuenta como adelantar a Banana, así que tropiezo."
+    },
+    "hypnotist": {
+      "description": "Al empezar mi turno, puedo teletransportar a un corredor a mi casilla.",
+      "notes": ""
+    },
+    "inchworm": {
+      "description": "Cuando otro corredor saca un 1 para su movimiento principal, no realiza ese movimiento y yo avanzo 1 casilla.",
+      "notes": "Si otro corredor saca un 1 y Skipper también está en la carrera, primero avanzo 1 casilla y después Skipper juega su turno."
+    },
+    "lackey": {
+      "description": "Cuando otro corredor saca un 6 para su movimiento principal, avanzo 2 casillas.",
+      "notes": "Si el orden importa, me muevo antes que el otro corredor."
+    },
+    "leaptoad": {
+      "description": "Me salto las casillas ocupadas por otros corredores; no cuentan para la distancia de mi movimiento.",
+      "notes": "Esto también se aplica cuando retrocedo."
+    },
+    "legs": {
+      "description": "Puedo no tirar el dado para mi movimiento principal y moverme 5 casillas en su lugar.",
+      "notes": "Esto cuenta como mi movimiento principal, así que Gunk puede reducirlo y Coach puede aumentarlo."
+    },
+    "loveable-loser": {
+      "description": "Al empezar mi turno, recibo 1 ficha de puntos si estoy en último lugar y sin empatar con nadie.",
+      "notes": ""
+    },
+    "magician": {
+      "description": "Puedo repetir hasta dos veces la tirada de mi movimiento principal.",
+      "notes": "Debo usar el resultado de mi última tirada."
+    },
+    "mastermind": {
+      "description": "Al empezar mi primer turno, predigo qué corredor ganará. Si acierto, la carrera termina inmediatamente y yo quedo en segundo lugar.",
+      "notes": "Si me elijo a mí mismo, puedo obtener tanto el primer como el segundo puesto."
+    },
+    "mouth": {
+      "description": "Cuando me detengo en una casilla con exactamente otro corredor, ese corredor queda eliminado de la carrera.",
+      "notes": ""
+    },
+    "party-animal": {
+      "description": "Al empezar mi turno, todos los corredores se mueven 1 casilla hacia mí. Cada otro corredor en mi casilla da +1 a mi movimiento principal.",
+      "notes": "Si Huge Baby llega a mi casilla gracias a esta habilidad, todos los que estén allí se colocan 1 casilla detrás de Huge Baby."
+    },
+    "rocket-scientist": {
+      "description": "Puedo duplicar el resultado de la tirada de mi movimiento principal. Si lo hago, tropiezo.",
+      "notes": "Primero tiro el dado y luego decido si uso mi habilidad."
+    },
+    "romantic": {
+      "description": "Cuando alguien se detiene en una casilla con exactamente otro corredor, avanzo 2 casillas.",
+      "notes": "Mi habilidad no se activa si dos corredores se mueven juntos y simultáneamente, como con Party Animal o Suckerfish."
+    },
+    "scoocher": {
+      "description": "Cada vez que se aplica la habilidad de otro corredor, avanzo 1 casilla.",
+      "notes": "Con Gunk, avanzo 1 casilla por cada −1 que se aplica al movimiento principal de un corredor. Con Dicemonger, me muevo por cada tirada repetida. Con Leaptoad, avanzo por cada casilla saltada: dos casillas ocupadas consecutivas implican dos movimientos separados de 1 casilla. También me muevo por cada repetición de tirada de Magician, aunque ese resultado no se utilice."
+    },
+    "sisyphus": {
+      "description": "Antes de mi carrera, tomo 4 fichas de puntos. Cuando saco un 6 para mi movimiento principal, me teletransporto a la Salida en vez de moverme y pierdo 1 ficha de puntos.",
+      "notes": "Si saco más de cuatro seises, sigo perdiendo puntos mientras me queden. Después de teletransportarme a la Salida, no realizo mi movimiento principal."
+    },
+    "skipper": {
+      "description": "Cuando alguien saca un 1 para su movimiento principal, yo juego el siguiente turno.",
+      "notes": "Después de mi turno, el orden continúa hacia mi izquierda, ¡salvo que yo saque un 1 y vuelva a jugar!"
+    },
+    "stickler": {
+      "description": "Los demás corredores solo pueden cruzar la meta moviéndose exactamente el número de casillas necesario. Si fueran a pasarse, no realizan ese movimiento.",
+      "notes": "Esto se aplica a todos los movimientos, incluidos los principales y los de habilidades. Por ejemplo, Duelist no cruza la meta al ganar un duelo desde la última casilla antes de ella."
+    },
+    "suckerfish": {
+      "description": "Cuando un corredor empieza un movimiento desde mi casilla, puedo moverme con él.",
+      "notes": "Una vez que empiezo a moverme con un corredor, debo acompañarlo durante todo su movimiento. Puedo cruzar la meta con esta habilidad. Llegamos simultáneamente, pero el corredor al que acompaño se resuelve primero para la clasificación y la activación de habilidades."
+    },
+    "third-wheel": {
+      "description": "Al empezar mi turno, puedo teletransportarme a cualquier casilla con exactamente 2 corredores.",
+      "notes": "Después de teletransportarme, sigo realizando mi movimiento principal."
+    },
+    "twin": {
+      "description": "Antes de mi carrera, puedo elegir a un corredor que haya ganado una carrera anterior y competir con sus habilidades.",
+      "notes": "Sigo usando mi propia ficha de corredor. También obtengo las habilidades «antes de mi carrera» del corredor elegido."
+    }
+  }
+}

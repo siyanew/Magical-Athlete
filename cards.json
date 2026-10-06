@@ -1,0 +1,182 @@
+[
+  {
+    "id": "alchemist",
+    "name": "Alchemist",
+    "power": "TRANSMUTE ’N‘ SCOOT"
+  },
+  {
+    "id": "baba-yaga",
+    "name": "Baba Yaga",
+    "power": "LEG IT"
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "power": "THE SLIP"
+  },
+  {
+    "id": "blimp",
+    "name": "Blimp",
+    "power": "BLOW IT"
+  },
+  {
+    "id": "centaur",
+    "name": "Centaur",
+    "power": "HOOFWHACK"
+  },
+  {
+    "id": "cheerleader",
+    "name": "Cheerleader",
+    "power": "RAH RAH"
+  },
+  {
+    "id": "coach",
+    "name": "Coach",
+    "power": "GOOD HUSTLE"
+  },
+  {
+    "id": "copy-cat",
+    "name": "Copy Cat",
+    "power": "COPY THAT"
+  },
+  {
+    "id": "dicemonger",
+    "name": "Dicemonger",
+    "power": "DICEY DEALS"
+  },
+  {
+    "id": "duelist",
+    "name": "Duelist",
+    "power": "DUEL!"
+  },
+  {
+    "id": "egg",
+    "name": "Egg",
+    "power": "SCRAMBLE"
+  },
+  {
+    "id": "flip-flop",
+    "name": "Flip Flop",
+    "power": "FLOP FLIP"
+  },
+  {
+    "id": "genius",
+    "name": "Genius",
+    "power": "THINK GOOD"
+  },
+  {
+    "id": "gunk",
+    "name": "Gunk",
+    "power": "GOOP ‘EM"
+  },
+  {
+    "id": "hare",
+    "name": "Hare",
+    "power": "HUBRIS"
+  },
+  {
+    "id": "heckler",
+    "name": "Heckler",
+    "power": "SCHADENFREUDE"
+  },
+  {
+    "id": "huge-baby",
+    "name": "Huge Baby",
+    "power": "REALLY HUGE"
+  },
+  {
+    "id": "hypnotist",
+    "name": "Hypnotist",
+    "power": "HSSSSST"
+  },
+  {
+    "id": "inchworm",
+    "name": "Inchworm",
+    "power": "WRIGGLE"
+  },
+  {
+    "id": "lackey",
+    "name": "Lackey",
+    "power": "VERY GOOD SIRE"
+  },
+  {
+    "id": "leaptoad",
+    "name": "Leaptoad",
+    "power": "JUMPFROG"
+  },
+  {
+    "id": "legs",
+    "name": "Legs",
+    "power": "JOG"
+  },
+  {
+    "id": "loveable-loser",
+    "name": "Loveable Loser",
+    "power": "D’AWW"
+  },
+  {
+    "id": "magician",
+    "name": "Magician",
+    "power": "POOF"
+  },
+  {
+    "id": "mastermind",
+    "name": "Mastermind",
+    "power": "KNOW-IT-ALL"
+  },
+  {
+    "id": "mouth",
+    "name": "M.O.U.T.H.",
+    "power": "CHOMP"
+  },
+  {
+    "id": "party-animal",
+    "name": "Party Animal",
+    "power": "ANIMAL MAGNETISM"
+  },
+  {
+    "id": "rocket-scientist",
+    "name": "Rocket Scientist",
+    "power": "KABLOOEY"
+  },
+  {
+    "id": "romantic",
+    "name": "Romantic",
+    "power": "AH, LOVE!"
+  },
+  {
+    "id": "scoocher",
+    "name": "Scoocher",
+    "power": "SCOOCH SCOOCH"
+  },
+  {
+    "id": "sisyphus",
+    "name": "Sisyphus",
+    "power": "KEEP ROLLIN’"
+  },
+  {
+    "id": "skipper",
+    "name": "Skipper",
+    "power": "SALTY DOG"
+  },
+  {
+    "id": "stickler",
+    "name": "Stickler",
+    "power": "ACTUALLY..."
+  },
+  {
+    "id": "suckerfish",
+    "name": "Suckerfish",
+    "power": "SUCKER!"
+  },
+  {
+    "id": "third-wheel",
+    "name": "Third Wheel",
+    "power": "ROLL THROUGH"
+  },
+  {
+    "id": "twin",
+    "name": "Twin",
+    "power": "DOUBLE DIP"
+  }
+]

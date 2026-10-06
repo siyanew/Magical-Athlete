@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8ff">
+  <meta name="description" content="Search card names and abilities">
+  <title>Magical Athlete</title>
+  <link rel="icon" type="image/gif" href="assets/magical-athlete-logo.gif">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Lalezar&family=Nunito:wght@400;500;600;700;800&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand"><img class="brand-logo" src="assets/magical-athlete-logo.gif" alt="Magical Athlete" width="1764" height="712"><span class="brand-title" id="brand-title">Magical Athlete</span></div>
+    <div class="language-picker">
+      <label class="sr-only" id="language-label" for="language">Language</label>
+      <select id="language" aria-labelledby="language-label">
+        <option value="en" lang="en">English</option>
+        <option value="fa" lang="fa">فارسی</option>
+        <option value="de" lang="de">Deutsch</option>
+        <option value="fr" lang="fr">Français</option>
+        <option value="es" lang="es">Español</option>
+        <option value="sv" lang="sv">Svenska</option>
+        <option value="fi" lang="fi">Suomi</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <h1><span id="page-title">Find your card</span></h1>
+    </section>
+    <div class="search-area">
+      <form class="search-box" role="search" autocomplete="off">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+        <label id="search-label" class="sr-only" for="search">Search card names and abilities</label>
+        <input id="search" type="search" placeholder="Type a card name or ability…" spellcheck="false">
+        <button id="clear-search" type="button" aria-label="Clear search" hidden>×</button>
+      </form>
+      <div class="results-meta"><p id="result-count" role="status" aria-live="polite">36 cards</p><span id="search-hint">Card name or ability</span></div>
+    </div>
+    <div id="load-error" role="alert" hidden><span id="load-error-text"></span> <button id="retry-load" type="button">Try again</button></div>
+    <section id="cards" class="cards-grid" aria-label="Racer cards"></section>
+    <div id="empty" class="empty-state" hidden><span aria-hidden="true">?</span><h2 id="empty-title">This card is hiding!</h2><p id="empty-description">Try another name or keyword.</p><button id="reset-search" class="reset-button" type="button">Show all cards</button></div>
+    <noscript><p class="noscript">Enable JavaScript to view and search the cards.</p></noscript>
+  </main>
+  <footer class="site-footer"><p lang="en" dir="ltr">Made with <span role="img" aria-label="love">❤️</span> by <a href="https://github.com/siyanew/">Siyanew</a></p>
+    <p class="footer-contribute"><span id="footer-contribute">Want to add a language, suggest a change, or report an issue?</span> <a id="footer-github" href="https://github.com/siyanew/Magical-Athlete">Visit the project on GitHub</a></p>
+  </footer>
+  <dialog id="card-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" id="close-dialog" type="button" aria-label="Close card">×</button>
+    <div class="dialog-content"><img id="dialog-image" alt="" width="339" height="472"><div class="dialog-text"><h2 id="dialog-title" lang="en" dir="ltr"></h2><span id="dialog-power" class="power-label" lang="en" dir="ltr"></span><p id="dialog-ability"></p><div id="dialog-notes-wrap"><h3 id="dialog-notes-title">Rules note</h3><p id="dialog-notes"></p></div></div></div>
+  </dialog>
+</body>
+</html>
