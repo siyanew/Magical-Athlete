@@ -1,6 +1,20 @@
-# Magical Athlete
+<p align="center">
+  <img src="assets/magical-athlete-logo.gif" alt="Magical Athlete" width="360">
+</p>
 
-[Demo: magicalathlete.siyanew.com](https://magicalathlete.siyanew.com)
+<p align="center">
+  <a href="https://magicalathlete.siyanew.com"><strong>🎲 Try the live demo</strong></a>
+</p>
+
+## Screenshots
+
+**Find a card**
+
+![Magical Athlete card browser with search and language selection](docs/screenshots/card-browser.png)
+
+**Explore its abilities**
+
+![Coach card popup with its ability and rule clarification](docs/screenshots/coach-popup.png)
 
 ## Development
 
@@ -25,12 +39,6 @@ npm run build
 
 The build copies the website and its assets to `dist/`.
 
-
-## Locales
-
-Translations live in `locales/`: English (`en`), Persian (`fa`), German (`de`), French (`fr`), Spanish (`es`), Swedish (`sv`), and Finnish (`fi`). Keep all 36 card IDs and interface keys consistent across locale files. Card names and power titles remain in English.
-
-English is the default for new visitors. The language selector saves the selected locale in browser `localStorage`.
 
 ## Credits
 
